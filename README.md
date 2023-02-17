@@ -33,7 +33,7 @@ $$
 
 #### Aside: Why is minimizing the norm given a fixed margin equivalent to maximizing the margin?
 
-This is often given in discussion of SVMs but stems from the formula for distance between two parallel lines. The margin of an SVM can be modelled as two parallel lines to the decisio boundary, where the decision boundary is given by 
+This is often given in discussion of SVMs but stems from the formula for distance between two parallel lines. The margin of an SVM can be modelled as two parallel lines to the decision boundary, where the decision boundary is given by 
 
 $$
 w^Tx + b = 0
@@ -44,7 +44,11 @@ $$
 Where here $M$ is the margin. Lets consider the two lines (in 2D case), re-written as such:
 
 $$
-w_1x_1 + w_2x_2 + b = 0 \\ w_1x_1 + w_2x_2 + (b - M) = 0
+w_1x_1 + w_2x_2 + b = 0
+$$
+
+$$
+w_1x_1 + w_2x_2 + (b - M) = 0
 $$
 
 [The distance between two parallel lines is proven here.](https://en.wikipedia.org/wiki/Distance_between_two_parallel_lines). Skipping steps in proof linked, we arrive at $d$ = 
