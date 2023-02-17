@@ -84,4 +84,4 @@ have passed or we are pass tolerance threshold. See `fit` in `svm.py`
 
 ## Result
 
-Mostly seems to work, but doesn;t consistently converge to the exact same values as in `LinearSVC`. I suspect I am doing something slightly wrong in the gradient update or stop criteria. Still, frmo repeated runs it is clear that the margin learned is much higher than chance, among choices of decision functions that partition the data.
+Mostly seems to work, but doesn't consistently converge to the exact same values as in `LinearSVC`. I suspect I am doing something slightly wrong in the gradient update or stop criteria. Still, from repeated runs it is clear that the margin learned is much higher than chance, among choices of decision functions that partition the data.
