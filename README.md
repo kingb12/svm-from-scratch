@@ -1,5 +1,4 @@
-~~# svm-from-scratch
-a Simple SVM from scratch (numpy components only)
+a Simple SVM from scratch (numpy components only, imperfect implementation)
 
 ## Perceptron
 
